@@ -69,3 +69,32 @@ The mark is a thick marigold route line that loops through a cobalt square and e
 ## India-First Commercial Model
 
 All visible prices use **Indian rupees (INR)** with the `₹` symbol and Indian digit grouping. The working model begins with a clear core build price of **₹79,000**. Optional additions are priced individually and surfaced beside the scope decision: conversion copywriting at **₹18,000**, a starter identity at **₹24,000**, an editing space at **₹16,000**, analytics at **₹9,000**, and a technical SEO pass at **₹14,000**. Prices are illustrative website copy and remain easy to revise from one data list.
+
+## Multi-Screen Onboarding Product Contract
+
+ScopeFlow now functions as an actual onboarding wizard rather than a single-page catalogue. It opens immediately in a focused multi-screen flow that carries each selection forward and allows users to move backward without losing choices. The Project Mela color system stays in place, but its route-map idea is expressed through a compact top progress route and a series of large, changing decision cards—not a persistent side rail or landing-page navigation.
+
+| Screen | Purpose | Decision model |
+| --- | --- | --- |
+| 1. Pick your path | Establish the build category. | Website, web app, e-commerce, or refresh; each shows a different starting price and plain-language default scope. |
+| 2. Shape the brief | Capture the project name and intended outcome. | Freeform detail that is carried into the final scope request. |
+| 3. Accounts & access | Price authentication accurately. | No member area, email/password login **included**, Google sign-in extra, or Google plus email/password extra. |
+| 4. Payments | Only appears for e-commerce and web-app projects. | No payment flow, Razorpay, Stripe, or subscription checkout; each non-default choice has a fixed INR fee. |
+| 5. Launch path | Clarify delivery and deployment. | Source-code handover is **included**; in-app managed deployment, custom-domain connection, and launch monitoring are paid additions. |
+| 6. Useful extras | Offer the non-essential features that commonly change scope. | Category-aware feature cards, each with its own INR price and clear effect on the build. |
+| 7. Your scope | Create an itemized, approval-ready overview. | Shows base build, included features, selected additions, total, and a prefilled email request. |
+
+The commercial model uses these illustrative starting prices: website **₹59,000**, web app **₹89,000**, e-commerce **₹95,000**, and refresh **₹38,000**. The final interface will consistently label the normal email/password login and source-code handover as **included**, while Google authentication, payment integration, managed app deployment, and every elective feature appear as fixed INR additions.
+
+## Style Decisions
+
+- Each decision screen is a numbered **station** on the same visible route, with directional wayfinding and dotted connections rather than isolated form cards.
+- The running INR estimate is a perforated **fare ticket** with marigold as its dominant commercial signal, not a conventional footer bar.
+- The ScopeFlow route mark is treated as a primary visual asset, with a larger cobalt-and-marigold symbol in the header and a clear graphic relationship to the route indicators.
+- Choice tiles use bolder poster-like color fields, confident numerals, and expressive corner motifs while retaining the readability required for a commercial decision.
+
+## Custom Notification Pattern
+
+The wizard gains a local **Route Dispatch** notification system rather than relying only on generic transient messages. A bell in the header exposes a compact, keyboard-accessible notification feed that carries the Project Mela visual language: numbered route markers, marigold action color, cobalt text, and small directional arrows. The feed is useful rather than ornamental; it confirms when a route changes, when a paid or included option is selected, when an optional extra is added or removed, when progress is reset, and when the formal scope request is prepared.
+
+Notifications are session-local in this frontend version. They do not claim to send email, push alerts, WhatsApp messages, or other external notifications. A later backend upgrade can persist these events and deliver notifications outside the browser.
