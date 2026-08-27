@@ -146,6 +146,7 @@
   .sfw-option.is-selected .sfw-option-mark { background: var(--blue); color: var(--yellow); }
   .sfw-option-title { display: block; font-size: 14px; font-weight: 800; letter-spacing: -.04em; }
   .sfw-option-copy { display: block; margin-top: 3px; color: #5d5d76; font-size: 10px; line-height: 1.4; }
+  .sfw-option-title em { display: inline-block; margin-left: 6px; padding: 3px 5px; background: var(--red); color: var(--paper); font-size: 8px; font-style: normal; font-weight: 800; letter-spacing: .06em; text-transform: uppercase; vertical-align: 1px; }
   .sfw-option-cost { justify-self: end; color: var(--red); font-size: 11px; font-weight: 800; letter-spacing: -.025em; text-align: right; white-space: nowrap; }
   .sfw-option-cost.is-included { color: var(--blue); }
   .sfw-project-grid { display: grid; gap: 11px; margin-top: 31px; }
@@ -177,6 +178,17 @@
   .sfw-feature-note svg { flex: 0 0 auto; margin-top: 1px; }
   .sfw-feature-note p { margin: 0; font-size: 11px; font-weight: 600; line-height: 1.48; }
   .sfw-feature-note b { font-weight: 800; }
+  .sfw-ai-empty { display: grid; grid-template-columns: 61px minmax(0,1fr); gap: 17px; align-items: start; margin-top: 31px; padding: 22px; border: 2px solid var(--blue); background: var(--green); box-shadow: 6px 6px 0 var(--yellow); }
+  .sfw-ai-orb { display: grid; width: 58px; height: 58px; place-items: center; border-radius: 50%; background: var(--blue); color: var(--yellow); box-shadow: inset 0 0 0 7px var(--red); }
+  .sfw-ai-empty strong { display: block; font-family: "Bricolage Grotesque", sans-serif; font-size: 23px; line-height: .94; letter-spacing: -.06em; }
+  .sfw-ai-empty p { max-width: 430px; margin: 7px 0 14px; font-size: 11px; line-height: 1.5; }
+  .sfw-ai-summary { display: grid; grid-template-columns: 25px 1fr; gap: 10px; align-items: start; margin-top: 28px; padding: 14px; border: 2px solid var(--blue); background: var(--yellow); }
+  .sfw-ai-summary > span { display: grid; width: 24px; height: 24px; place-items: center; border-radius: 50%; background: var(--blue); color: var(--yellow); }
+  .sfw-ai-summary p { margin: 1px 0 0; font-size: 11px; line-height: 1.46; }
+  .sfw-ai-regenerate { grid-column: 2; justify-self: start; padding: 5px 0; border: 0; background: transparent; color: var(--red); font-size: 9px; font-weight: 800; letter-spacing: .07em; text-decoration: underline; text-underline-offset: 3px; text-transform: uppercase; }
+  .sfw-ai-select-label { display: flex; align-items: center; gap: 7px; margin: 20px 0 -14px; color: var(--blue); font-size: 10px; font-weight: 800; letter-spacing: .075em; text-transform: uppercase; }
+  .sfw-ai-reason { display: block; margin-top: 7px; color: var(--blue); font-size: 9px; font-weight: 700; line-height: 1.36; }
+  .sfw-ai-option { min-height: 116px; }
   .sfw-card-footer { display: flex; align-items: center; justify-content: space-between; gap: 14px; padding: 15px 18px; border-top: 2px solid var(--blue); background: var(--paper); }
   .sfw-button { display: inline-flex; min-height: 44px; align-items: center; justify-content: center; gap: 9px; padding: 0 15px; border: 2px solid var(--blue); border-radius: 0; background: transparent; color: var(--blue); font-size: 10px; font-weight: 800; letter-spacing: .085em; text-decoration: none; text-transform: uppercase; transition: background-color 160ms ease, color 160ms ease, transform 160ms cubic-bezier(.23,1,.32,1); }
   .sfw-button:hover { transform: translateY(-2px); }
@@ -200,6 +212,8 @@
   .sfw-summary-row { display: flex; align-items: center; justify-content: space-between; gap: 15px; padding: 12px 0; border-bottom: 1px solid rgba(27,28,78,.25); font-size: 11px; line-height: 1.36; }
   .sfw-summary-row:last-child { border-bottom: 0; }
   .sfw-summary-row span { color: #585870; }
+  .sfw-summary-row span b { display: block; color: var(--blue); font-size: 11px; }
+  .sfw-summary-row span small { display: block; margin-top: 2px; color: #717087; font-size: 9px; line-height: 1.35; }
   .sfw-summary-row b { color: var(--blue); font-size: 10px; font-variant-numeric: tabular-nums; white-space: nowrap; }
   .sfw-summary-row b.is-extra { color: var(--red); }
   .sfw-total-card { position: relative; overflow: hidden; padding: 20px; background: var(--blue); color: var(--paper); }

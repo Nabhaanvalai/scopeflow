@@ -98,3 +98,9 @@ The commercial model uses these illustrative starting prices: website **₹59,00
 The wizard gains a local **Route Dispatch** notification system rather than relying only on generic transient messages. A bell in the header exposes a compact, keyboard-accessible notification feed that carries the Project Mela visual language: numbered route markers, marigold action color, cobalt text, and small directional arrows. The feed is useful rather than ornamental; it confirms when a route changes, when a paid or included option is selected, when an optional extra is added or removed, when progress is reset, and when the formal scope request is prepared.
 
 Notifications are session-local in this frontend version. They do not claim to send email, push alerts, WhatsApp messages, or other external notifications. A later backend upgrade can persist these events and deliver notifications outside the browser.
+
+## AI Scope Studio
+
+The fixed add-on catalogue is replaced by a server-side **AI Scope Studio**. The user begins with a project route but writes the desired outcome in their own words. If the route is **Custom build**, they also describe the project directly—such as “hospital management system for outpatient clinics.” The AI receives this project context, creates a concise foundation list, and returns four to seven tailored recommendations. Each recommendation is a large selectable button with a specific name, short explanation, reason it may help, and fixed INR cost.
+
+The model is not allowed to invent commercial prices. It selects only from these approved INR bands: **₹8,000, ₹12,000, ₹16,000, ₹18,000, ₹24,000, ₹32,000, and ₹40,000**. The application validates the structured AI response before it reaches the browser. Suggestions are never automatically charged; users deliberately select the additions that belong in the final scope.

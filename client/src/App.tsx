@@ -8,6 +8,7 @@ import Home from "./pages/Home";
 
 /** ScopeFlow Project Mela: contemporary Indian graphic modernism and transit-like visual wayfinding. */
 function Router() {
+  // make sure to consider if you need authentication for certain routes
   return (
     <Switch>
       <Route path="/" component={Home} />
