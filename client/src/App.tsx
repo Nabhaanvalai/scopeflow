@@ -6,7 +6,7 @@ import ErrorBoundary from "./components/ErrorBoundary";
 import { ThemeProvider } from "./contexts/ThemeContext";
 import Home from "./pages/Home";
 
-/** ScopeFlow uses a quiet, light Project Ledger theme to keep project decisions legible. */
+/** ScopeFlow Project Mela: contemporary Indian graphic modernism and transit-like visual wayfinding. */
 function Router() {
   return (
     <Switch>
